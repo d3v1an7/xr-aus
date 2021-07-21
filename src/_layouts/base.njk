@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head.html' %}
+<body class="{{ title | slug }} bg-green-900 bg-swoosh bg-no-repeat bg-top bg-custom-cover">
+  {% include 'navigation.html' %}
+  {% block content %}{{ content | safe }}{% endblock %}
+  {% include 'footer.html' %}
+</body>
+</html>

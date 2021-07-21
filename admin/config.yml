@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+local_backend: true
+
+# Uncomment below to enable drafts
+# publish_mode: editorial_workflow
+
+media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+
+# # Cloudinary
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: broeker
+#     api_key: 159818251742281
+
+collections:
+  - name: "pages"
+    label: 'Pages'
+    label_singular: 'Page'
+    folder: "src/pages"
+    description: >
+      Home for all editable content, including the home page and Spring Rebellion.
+      Making changes here will add/modify markdown files in the pages directory.
+    create: true
+    summary: '{{fields.title}} {{fields.permalink}}'
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Permalink", name: "permalink", widget: "string", required: false }
+      - { label: "Background colour", name: "background_colour", widget: 'select', options: ['blue', 'green', 'red'], required: false }
+      - { label: "Background image", name: "background_image", widget: 'select', options: ['a', 'b', 'c'], required: false }
+  - label: "Settings"
+    name: "settings"
+    description: >
+      Home for all editable website settings, including navigation and redirects.
+      Making changes here will modify the related JSON file in the _data directory.
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "navigation"
+        file: "src/_data/navigation.json"
+        fields:
+          - label: "Navigation"
+            label_singular: "Item"
+            name: "navigation"
+            widget: "list"
+            summary: '{{fields.name}}'
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+      - label: "Redirects"
+        name: "redirects"
+        file: "src/_data/redirects.json"
+        fields:
+          - label: "Redirects"
+            label_singular: "Item"
+            name: "redirects"
+            widget: "list"
+            summary: '{{fields.source}} ⭢ {{fields.destination}}'
+            fields:
+              - {label: Source, name: source, widget: string}
+              - {label: Destination, name: destination, widget: string}
+              - {label: Code, name: code, widget: select, options: ['301', '302']}
+      - label: "SEO & social"
+        name: "seo"
+        file: "src/_data/seo.json"
+        fields:
+          - {label: "Site name", name: "title", widget: "string"}
+          - {label: "Meta description", name: "description", widget: "string"}
+          - {label: "Social image", name: "image", widget: "image", required: false}

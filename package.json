@@ -1,0 +1,37 @@
+{
+  "name": "xr-spring-rebellion",
+  "version": "1.0.0",
+  "description": "Create an updatable space on the Australia XR website to publicise major actions.",
+  "main": "index.js",
+  "scripts": {
+    "site:build": "eleventy",
+    "site:buildwatch": "eleventy --watch",
+    "site:clean": "rm -rf _site",
+    "site:css": "postcss ./src/style.css --no-map --env production --output ./_site/style.css",
+    "site:serve": "serve _site",
+    "build": "npm-run-all site:clean site:css site:build",
+    "build:local": "npm-run-all site:css site:buildwatch",
+    "start": "npm-run-all site:clean --parallel site:serve watch browsersync:start netlify",
+    "netlify": "npx netlify-cms-proxy-server",
+    "watch": "nodemon --watch ./src --ext md,css,njk,json --ignore src/_data/manifest.json --exec 'npm run build:local'",
+    "browsersync:start": "browser-sync start --proxy 'localhost:5000' --files './_site/index.html' --no-notify"
+  },
+  "keywords": [],
+  "author": "Ben White",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.6",
+    "eleventy-plugin-seo": "^0.5.2",
+    "markdown-it": "^12.1.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-hash": "^3.0.0",
+    "tailwindcss": "^2.2.4",
+    "alpinejs": "^3.2.2",
+    "browser-sync": "^2.27.4",
+    "nodemon": "^2.0.12",
+    "serve": "^12.0.0"
+  }
+}
