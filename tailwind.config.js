@@ -24,6 +24,8 @@ module.exports = {
         'custom-cover': 'top right',
       },
       colors: {
+        "off-dark": "#0f0f0f",
+        "off-light": "#efefef",
         green: {
           "100": "#EFF6EF",
           "200": "#CFE4CD",
@@ -82,7 +84,7 @@ module.exports = {
           "800": "#97266d",
           "900": "#702459",
         },
-        ocean_green: {
+        "ocean-green": {
           DEFAULT: "#48BB78",
           "50": "#EFF9F3",
           "100": "#DDF2E6",
@@ -121,7 +123,7 @@ module.exports = {
           "800": "#138EBA",
           "900": "#0E6A8C",
         },
-        moody_blue: {
+        "moody-blue": {
           DEFAULT: "#7571CD",
           "50": "#FFFFFF",
           "100": "#FFFFFF",
@@ -134,7 +136,7 @@ module.exports = {
           "800": "#2E2B7A",
           "900": "#201E54",
         },
-        pastel_green: {
+        "pastel-green": {
           DEFAULT: "#8EDB74",
           "50": "#FFFFFF",
           "100": "#FFFFFF",
