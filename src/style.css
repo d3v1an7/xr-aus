@@ -52,6 +52,72 @@
   .disclaimer h3, p {
     @apply inline;
   }
+
+  a {
+    text-decoration: underline;
+  }
+
+  nav a {
+    font-family: 'FucXedLatin', sans-serif;
+    text-decoration: none;
+  }  
+
+  .content-block2 {
+    margin-top: 1.5rem;
+  }
+
+  .content-block2 h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+    color: #FFF;
+  }
+
+  .content-block2 > div {
+    margin-top: 30px;
+  }
+
+  .content-block2 h2 {
+    color: #FFF;
+  }
+
+  .content-block2 .action-bt {
+    font-family: 'FucXedLatin', sans-serif;
+    color: #FFF;
+    background-color: #000;
+    padding: 10px;
+    margin-top: 1.5rem;
+  }
+
+  .content-block2 .action-bt a {
+    text-decoration: none;
+  }
+
+  .content-block2 hr {
+    margin: 40px 0;
+    border-top: 1px solid rgba(31,41,55, .25);
+    max-width: 32rem;
+  }
+
+  .home-bt {
+    font-family: 'FucXedLatin', sans-serif;
+    color: #FFF;
+    background-color: #000;
+    padding: 10px;
+    margin-top: 1.5rem;
+  }
+
+  .home-bt a {
+    text-decoration: none;
+  }
+
+  .bt {
+    font-family: 'FucXedLatin', sans-serif;
+    color: #FFF;
+  }
+  
+  .bt a {
+    text-decoration: none;
+  }
 }
 @layer utilities {
   [x-cloak] {
