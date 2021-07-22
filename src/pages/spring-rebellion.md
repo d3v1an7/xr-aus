@@ -7,7 +7,7 @@ background_colour: bg-pink-500
 background_image: bg-symbol-cockatoo
 ---
 
-## Lorem ipsum dolor sit amet.
+## A national declaration of civil disobedience.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat dolor vitae nibh aliquam dictum. Pellentesque mattis, orci vitae vestibulum convallis, lacus sapien pharetra magna, id tempor lacus ligula a massa. In at massa tortor. Mauris efficitur dolor ac tortor laoreet, eu ullamcorper metus accumsan. Aliquam lorem nibh, congue id cursus id, porta nec mauris. Vivamus vel eros elit. Praesent vitae eros pulvinar, pretium metus quis, dictum dui. Maecenas eu blandit felis. Nulla condimentum varius lectus a pretium. Nullam in aliquam lorem. Pellentesque libero nibh, iaculis sit amet justo vel, egestas aliquet augue. Maecenas eget neque fermentum, condimentum enim nec, consectetur libero.
 
