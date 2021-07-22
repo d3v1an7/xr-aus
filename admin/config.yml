@@ -13,7 +13,7 @@ backend:
 # publish_mode: editorial_workflow # another one to come back to post hackathon
 
 site_url: https://withloveandrage.com
-logo_url: https://withloveandrage.com/images/logo-symbol-dark.svg
+logo_url: https://withloveandrage.com/images/logo.png
 
 media_folder: "src/images"
 collections:
