@@ -1,4 +1,4 @@
-# xs-spring-rebellion
+# xr-spring-rebellion
 
 An example of what a rebuild of the XR Australia website could look like, showcasing an upcoming Spring Rebellion event.
 
