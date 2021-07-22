@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About XR
-description: About XR.
-permalink: /about-xr/
+title: Get involved
+description: Get involved.
+permalink: /get-involved/
 background_colour: bg-blue-300
 background_image: bg-symbol-cockatoo
 ---

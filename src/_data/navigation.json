@@ -2,25 +2,25 @@
   "featured": [
     {
       "name": "Donate",
-      "url": "/donate"
+      "url": "/donate/"
     }
   ],
   "general": [
     {
       "name": "About XR",
-      "url": "/about-xr"
+      "url": "/about-xr/"
     },
     {
       "name": "Get involved",
-      "url": "/get-involved"
+      "url": "/get-involved/"
     },
     {
       "name": "Events",
-      "url": "/events"
+      "url": "/events/"
     },
     {
       "name": "News",
-      "url": "/news"
+      "url": "/news/"
     }
   ]
 }

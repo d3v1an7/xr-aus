@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About XR
-description: About XR.
-permalink: /about-xr/
-background_colour: bg-blue-300
+title: Spring Rebellion
+description: Spring Rebellion.
+permalink: /events/spring-rebellion/
+background_colour: bg-pink-500
 background_image: bg-symbol-cockatoo
 ---
 
