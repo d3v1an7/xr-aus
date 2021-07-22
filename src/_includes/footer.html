@@ -3,19 +3,24 @@
     <div class="acknowledgement max-w-3xl">
       {% markdown footer.acknowledgement %}
     </div>
-    <div class="links max-w-3xl flex mt-10">
-    {%- for key, value in footer.links %}
-      <div class="flex-grow">
-        <h3>{% title key %}</h3>
-        <ul>
-        {%- for item in value %}
-          <li>
-            <a href="{{item.url}}">{{item.name}}</a>
-          </li>
-        {%- endfor %}
-        </ul>
+    <div class="flex flex-col md:flex-row justify-between mt-10">
+      <div class="links max-w-3xl grid gap-x-4 gap-y-10 grid-cols-2 md:flex md:flex-grow">
+      {%- for key, value in footer.links %}
+        <div class="md:flex-grow">
+          <h3>{% title key %}</h3>
+          <ul>
+          {%- for item in value %}
+            <li>
+              <a href="{{item.url}}">{{item.name}}</a>
+            </li>
+          {%- endfor %}
+          </ul>
+        </div>
+      {%- endfor %}
       </div>
-    {%- endfor %}
+      <div class="flex-shrink mt-10 md:mt-0">
+        <a href="/"><img class="w-32 md:w-44 h-auto" src="/images/logo-full-light.svg" alt="Extinction Rebellion logo"></a>
+      </div>
     </div>
     <hr class="divider border-off-white">
     <div class="disclaimer text-gray-500 text-sm">
