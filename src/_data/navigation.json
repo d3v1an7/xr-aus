@@ -1,8 +1,30 @@
 {
   "navigation": [
     {
-      "name": "Home",
+      "name": "HOME",
       "url": "/"
+    },
+    {
+      "name": "ABOUT XR",
+      "url": "/about-xr"
+    },
+    {
+      "name": "GET INVOLVED",
+      "url": "/get-involved"
+    },
+    {
+      "name": "EVENTS",
+      "url": "/events"
+    },
+    {
+      "name": "NEWS",
+      "url": "/news"
+    }
+  ], 
+  "highlight": [
+    {
+      "name": "DONATE",
+      "url": "/donate"
     }
   ]
 }
