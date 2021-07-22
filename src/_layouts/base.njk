@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include 'head.html' %}
-<body class="{{ title | slug }} {{ background_colour }} bg-swoosh bg-no-repeat bg-top bg-custom-cover">
+<body class="{{ title | slug }} {{ background_colour }} flex flex-col h-screen bg-swoosh bg-no-repeat bg-top bg-custom-cover">
   {% include 'navigation.html' %}
   {% block content %}{{ content | safe }}{% endblock %}
   {% include 'footer.html' %}
