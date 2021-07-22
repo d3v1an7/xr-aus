@@ -1,8 +1,8 @@
 ---
 layout: index
-title: Extinction Rebellion
+title: XR
 permalink: /
-description: Join The Fight Against Climate and Ecological Collapse.
+description: Join the fight against climate and ecological collapse.
 background_colour: bg-green-500
 background_image: bg-symbol-superbird
 ---

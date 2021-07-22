@@ -2,7 +2,7 @@
 layout: page
 title: Spring Rebellion
 description: Spring Rebellion.
-permalink: /events/spring-rebellion/
+permalink: /get-involved/spring-rebellion/
 background_colour: bg-pink-500
 background_image: bg-symbol-cockatoo
 ---

@@ -12,8 +12,8 @@ logo_url: https://withloveandrage.com/images/logo-symbol-dark.svg
 media_folder: "src/images"
 collections:
   - name: "pages"
-    label: 'Pages'
-    label_singular: 'Page'
+    label: "Pages"
+    label_singular: "Page"
     folder: "src/pages"
     description: >
       Home for all editable content, including the home page and Spring Rebellion.
@@ -21,7 +21,8 @@ collections:
     create: true
     editor:
       preview: false # def want to come back and enable this, but until we can represent the actual render, this is unhelpful
-    summary: '{{fields.title}} {{fields.permalink}}'
+    summary: "{{fields.permalink}}"
+    sortable_fields: ["permalink"]
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
@@ -37,13 +38,6 @@ collections:
     editor:
       preview: false
     files:
-      - label: "Alert"
-        name: "alert"
-        file: "src/_data/alert.json"
-        fields:
-          - { label: Message, name: message, widget: markdown, minimal: true, required: false }
-          - { label: URL, name: url, widget: string, required: false }
-          - { label: "Background colour", name: "background_colour", widget: 'select', options: [{ label: 'Green', value: 'bg-green-500' }, { label: 'Blue', value: 'bg-blue-300' }, { label: 'Pink', value: 'bg-pink-500' }, { label: 'Yellow', value: 'bg-yellow-400' }], required: false }
       - label: "Navigation"
         name: "navigation"
         file: "src/_data/navigation.json"
@@ -53,7 +47,7 @@ collections:
             name: "general"
             label_singular: "Item"
             widget: "list"
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
@@ -62,10 +56,17 @@ collections:
             label_singular: "Item"
             widget: "list"
             max: 1
-            summary: '{{fields.name}}'
+            summary: "{{fields.name}}"
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
+      - label: "Alert"
+        name: "alert"
+        file: "src/_data/alert.json"
+        fields:
+          - { label: Message, name: message, widget: markdown, minimal: true, required: false }
+          - { label: URL, name: url, widget: string, required: false }
+          - { label: "Background colour", name: "background_colour", widget: 'select', options: [{ label: 'Green', value: 'bg-green-500' }, { label: 'Blue', value: 'bg-blue-300' }, { label: 'Pink', value: 'bg-pink-500' }, { label: 'Yellow', value: 'bg-yellow-400' }], required: false }
       - label: "Footer"
         name: "footer"
         file: "src/_data/footer.json"
