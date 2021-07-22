@@ -6,29 +6,34 @@ description: Join The Fight Against Climate and Ecological Collapse.
 background_colour: bg-green-500
 background_image: bg-symbol-superbird
 ---
-<div class="content-block">
+<div class="top-content">
 
-<h1 class="text-5xl md:text-7xl text-white leading-none max-w-lg">THIS IS AN EMERGENCY.</h1>
+## THIS IS AN
 
-<p class="max-w-2xl pr-16 mt-4">Life on Earth is in crisis. Our climate is changing faster than scientists predicted and the stakes are high. Biodiversity loss. Crop failure. Social and ecological collapse. Mass extinction.</p>
-<p class="max-w-2xl pr-16">We're running out of time, and our governments have failed to act. Extinction Rebellion was formed to fix this.</p>
+## EMERGENCY.
 
-<p class="font-bold mt-4">We have a moral duty to take action - whatever our politics.</p>
+Life on Earth is in crisis. Our climate is changing faster than scientists predicted and the stakes are high. Biodiversity loss. Crop failure. Social and ecological collapse. Mass extinction.
 
-<button class="bg-black p-2.5 mt-6 bt">
+We're running out of time, and our governments have failed to act. Extinction Rebellion was formed to fix this.
+
+**We have a moral duty to take action - whatever our politics.**
+
+<button>
 
 [GET INVOLVED](/get-involved)
 
 </button>
 
-<hr class="max-w-lg border-t border-b-0 border-gray-800 border-opacity-25 mt-6" />
+- - -
 
 </div>
 
-<div class="content-block2">
 
-## WHY WE ARE HERE?
-# OUR DEMANDS.
+<div class="bottom-content">
+
+#### WHY WE ARE HERE?
+
+## OUR DEMANDS.
 
 {% columnGroup %}
 
@@ -55,7 +60,7 @@ background_image: bg-symbol-superbird
 
 {% endcolumnGroup %}
 
-<button class="action-bt">
+<button>
 
 [MORE ABOUT XR](/about-xr)
 
