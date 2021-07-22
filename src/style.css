@@ -77,7 +77,7 @@
     @apply underline;
   }
   main h2 {
-    @apply text-7xl text-off-light mb-8;
+    @apply text-5xl sm:text-7xl text-off-light mb-8;
   }
   main h3 {
     @apply text-2xl text-off-light;
