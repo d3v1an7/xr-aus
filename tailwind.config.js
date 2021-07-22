@@ -4,8 +4,11 @@ module.exports = {
       './src/**/*.html',
       './src/**/*.md',
       './src/**/*.njk',
-      '.eleventy.js',
     ],
+    safelist: [
+      'column-group',
+      'group',
+    ]
   },
   darkMode: false,
   theme: {

@@ -12,13 +12,16 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy({'node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js'})
   eleventyConfig.addPairedShortcode("columnGroup", (content) => {
-    return `<div class="flex">\n\n${content}\n\n</div>`
+    return `<div class="column-group">\n\n${content}\n\n</div>`
   })
   eleventyConfig.addPairedShortcode("column", (content) => {
-    return `<div>\n\n${content}\n\n</div>`
+    return `<div class="column">\n\n${content}\n\n</div>`
   })
   eleventyConfig.addShortcode("title", (content) => {
     return content.charAt(0).toUpperCase() + content.slice(1).replace(/_/g," ")
+  })
+  eleventyConfig.addPairedShortcode("div", (content, classes) => {
+    return `<div class="${classes}">\n\n${content}\n\n</div>`
   })
   let markdownIt = require('markdown-it')
   let options = {
