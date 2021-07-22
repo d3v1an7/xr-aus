@@ -9,7 +9,7 @@ Built during a 24hr hackathon.
 - Updated homepage design and build
 - New landing page for Spring Rebellion
 - Everything must be editable (homepage, menu, redirects)
-- Minimal environmental impact
+- Minimal environmental impact (https://www.websitecarbon.com/website/withloveandrage-com/)
 - Accessible (screen readers)
 
 ## Stack
