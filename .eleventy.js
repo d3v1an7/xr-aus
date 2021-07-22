@@ -17,6 +17,9 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPairedShortcode("column", (content) => {
     return `<div>\n\n${content}\n\n</div>`
   })
+  eleventyConfig.addShortcode("title", (content) => {
+    return content.charAt(0).toUpperCase() + content.slice(1).replace(/_/g," ")
+  })
   let markdownIt = require('markdown-it')
   let options = {
     breaks: true,

@@ -40,7 +40,7 @@
     @apply max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8;
   }
   .divider {
-    @apply border-opacity-10 my-8 w-1/2;
+    @apply border-opacity-10 my-10 w-1/2;
   }
   .btn {
     @apply group flex items-center text-sm font-medium px-4 py-2;

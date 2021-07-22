@@ -3,6 +3,20 @@
     <div class="acknowledgement max-w-3xl">
       {% markdown footer.acknowledgement %}
     </div>
+    <div class="links max-w-3xl flex mt-10">
+    {%- for key, value in footer.links %}
+      <div class="flex-grow">
+        <h3>{% title key %}</h3>
+        <ul>
+        {%- for item in value %}
+          <li>
+            <a href="{{item.url}}">{{item.name}}</a>
+          </li>
+        {%- endfor %}
+        </ul>
+      </div>
+    {%- endfor %}
+    </div>
     <hr class="divider border-off-white">
     <div class="disclaimer text-gray-500 text-sm">
       {% markdown footer.disclaimer %}
