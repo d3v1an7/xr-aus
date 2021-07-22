@@ -49,7 +49,7 @@
   .disclaimer h3 {
     @apply mr-1;
   }
-  .disclaimer h3, p {
+  .disclaimer h3, .disclaimer p {
     @apply inline;
   }
 
@@ -60,7 +60,7 @@
   nav a {
     font-family: 'FucXedLatin', sans-serif;
     text-decoration: none;
-  }  
+  }
 
   .content-block2 {
     margin-top: 1.5rem;
@@ -114,7 +114,7 @@
     font-family: 'FucXedLatin', sans-serif;
     color: #FFF;
   }
-  
+
   .bt a {
     text-decoration: none;
   }
