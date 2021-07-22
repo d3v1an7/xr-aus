@@ -1,9 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: d3v1an7/xr-spring-rebellion
   branch: main
-
-local_backend: true # this only works locally currently, will need to do extra work post hackathon to get this working when hosted
-
+  base_url: https://withloveandrage.com/admin/
+#   name: git-gateway
+#   branch: main
+# local_backend: true # this only works locally currently, will need to do extra work post hackathon to get this working when hosted
 # publish_mode: editorial_workflow # another one to come back to post hackathon
 
 site_url: https://withloveandrage.com
