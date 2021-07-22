@@ -31,7 +31,7 @@
     font-display: swap;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'FucXedLatin', sans-serif;
+    @apply font-fucxed;
   }
   body {
     @apply font-crimson text-lg;
@@ -45,30 +45,18 @@
   .btn {
     @apply group flex items-center text-sm font-medium px-4 py-2;
   }
+  main a {
+    text-decoration: underline;
+  }
   /* Navigation */
+  nav a {
+    @apply font-fucxed;
+  }
   .navigation-item {
     @apply p-3 text-base font-medium text-off-light transition;
   }
   .navigation-item-hover {
     @apply text-off-dark hover:text-off-light;
-  }
-  /* Footer */
-  .disclaimer h3 {
-    @apply mr-1;
-  }
-  .disclaimer h3,
-  .disclaimer p {
-    @apply inline;
-  }
-
-  a {
-    text-decoration: underline;
-  }
-
-  /* Nav */
-  nav a {
-    font-family: 'FucXedLatin', sans-serif;
-    text-decoration: none;
   }
 
   /* Main */
@@ -127,7 +115,8 @@
   .disclaimer h3 {
     @apply mr-1;
   }
-  .disclaimer h3, .disclaimer p {
+  .disclaimer h3,
+  .disclaimer p {
     @apply inline;
   }
 }
