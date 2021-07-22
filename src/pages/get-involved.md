@@ -3,7 +3,7 @@ layout: page
 title: Get involved
 description: Get involved.
 permalink: /get-involved/
-background_colour: bg-blue-300
+background_colour: bg-yellow-400
 background_image: bg-symbol-cockatoo
 ---
 

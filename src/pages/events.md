@@ -3,7 +3,7 @@ layout: page
 title: Events
 description: Events.
 permalink: /events/
-background_colour: bg-blue-300
+background_colour: bg-pink-500
 background_image: bg-symbol-cockatoo
 ---
 

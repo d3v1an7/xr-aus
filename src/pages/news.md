@@ -3,7 +3,7 @@ layout: page
 title: News
 description: News.
 permalink: /news/
-background_colour: bg-yellow-400
+background_colour: bg-blue-800
 background_image: bg-symbol-cockatoo
 ---
 
