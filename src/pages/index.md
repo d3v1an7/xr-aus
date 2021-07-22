@@ -1,10 +1,9 @@
 ---
-
 layout: index
 title: XXXX
 permalink: /
 description: XXXX
-background_colour: blue
+background_colour: bg-green-500
 background_image: b
 ---
 # Blah!!!!@@!

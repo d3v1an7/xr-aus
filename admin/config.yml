@@ -29,7 +29,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Permalink", name: "permalink", widget: "string", required: false }
-      - { label: "Background colour", name: "background_colour", widget: 'select', options: ['blue', 'green', 'red'], required: false }
+      - { label: "Background colour", name: "background_colour", widget: 'select', options: [{label: 'Green', value: 'bg-green-500'}, {label: 'Blue', value: 'bg-blue-300'}, {label: 'Pink', value: 'bg-pink-500'}, {label: 'Yellow', value: 'bg-yellow-400'}], required: false }
       - { label: "Background image", name: "background_image", widget: 'select', options: ['a', 'b', 'c'], required: false }
   - label: "Settings"
     name: "settings"

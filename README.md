@@ -53,3 +53,8 @@ Working with a 3MB tailwind file in dev is clunky and error prone (especially wh
 ### Couldn't we do it `<this other way>`?
 
 Super open to changes/suggestions!
+
+
+# Credits
+
+- Tailwind colour definitions (and a heck lot of design inspiration) from https://github.com/owinoalfred/copxr
