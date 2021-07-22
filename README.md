@@ -21,7 +21,7 @@ Built during a 24hr hackathon.
 ## Local development
 
 ```sh
-git clone ****
+git clone https://github.com/d3v1an7/xr-spring-rebellion
 npm install
 npm run start
 
