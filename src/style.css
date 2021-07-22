@@ -45,12 +45,31 @@
   .btn {
     @apply group flex items-center text-sm font-medium px-4 py-2;
   }
+  /* Navigation */
+  .navigation-item {
+    @apply p-3 text-base font-medium text-off-light transition;
+  }
+  .navigation-item-hover {
+    @apply text-off-dark hover:text-off-light;
+  }
+  /* Footer */
+  .disclaimer h3 {
+    @apply mr-1;
+  }
+  .disclaimer h3,
+  .disclaimer p {
+    @apply inline;
+  }
+
+  a {
+    text-decoration: underline;
+  }
 
   /* Nav */
   nav a {
     font-family: 'FucXedLatin', sans-serif;
     text-decoration: none;
-  } 
+  }
 
   /* Main */
   main h2 {
