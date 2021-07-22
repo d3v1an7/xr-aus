@@ -10,11 +10,11 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('src/images')
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy({'node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js'})
-  eleventyConfig.addPairedShortcode("columnGroup", function(content) {
+  eleventyConfig.addPairedShortcode("columnGroup", (content) => {
     return `<div class="flex">\n\n${content}\n\n</div>`
   })
-  eleventyConfig.addPairedShortcode("column", function(content) {
-    return `<div class="text-red">\n\n${content}\n\n</div>`
+  eleventyConfig.addPairedShortcode("column", (content) => {
+    return `<div>\n\n${content}\n\n</div>`
   })
   let markdownIt = require('markdown-it')
   let options = {
@@ -23,7 +23,10 @@ module.exports = (eleventyConfig) => {
     html: true,
     linkify: true
   }
-  let markdownLib = markdownIt(options).disable('code')
+  let markdownLib = markdownIt(options)
+  eleventyConfig.addShortcode("markdown", (content) => {
+    return markdownLib.render(content)
+  })
   eleventyConfig.setLibrary("md", markdownLib)
   return {
     dir: {
