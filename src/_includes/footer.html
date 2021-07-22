@@ -1,8 +1,11 @@
 <footer class="bg-off-dark text-off-light">
-  <span>
-    {% markdown footer.acknowledgement %}
-  </span>
-  <span class="text-gray-500">
-    {% markdown footer.disclaimer %}
-  </span>
+  <div class="wrapper">
+    <div class="acknowledgement max-w-3xl">
+      {% markdown footer.acknowledgement %}
+    </div>
+    <hr class="divider border-off-white">
+    <div class="disclaimer text-gray-500 text-sm">
+      {% markdown footer.disclaimer %}
+    </div>
+  </div>
 </footer>

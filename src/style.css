@@ -34,10 +34,23 @@
     font-family: 'FucXedLatin', sans-serif;
   }
   body {
-    font-family: 'Crimson Text', serif;
+    @apply font-crimson text-lg;
+  }
+  .wrapper {
+    @apply max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8;
+  }
+  .divider {
+    @apply border-opacity-10 my-8 w-1/2;
   }
   .btn {
     @apply group flex items-center text-sm font-medium px-4 py-2;
+  }
+  /* Footer */
+  .disclaimer h3 {
+    @apply mr-1;
+  }
+  .disclaimer h3, p {
+    @apply inline;
   }
 }
 @layer utilities {
