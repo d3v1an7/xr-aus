@@ -92,7 +92,7 @@
     @apply btn-hover;
   }
   main hr {
-    @apply divider border-off-dark;
+    @apply border-off-dark divider border-opacity-20;
   }
 
   /* Footer */
