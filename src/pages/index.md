@@ -8,7 +8,7 @@ background_image: bg-symbol-superbird
 ---
 {% div "mt-6 max-w-2xl" %}
 
-## This is an <br>emergency.
+## This is an <br>emergency!
 
 Life on Earth is in crisis. Our climate is changing faster than scientists predicted and the stakes are high. Biodiversity loss. Crop failure. Social and ecological collapse. Mass extinction.
 
@@ -20,7 +20,7 @@ We're running out of time, and our governments have failed to act. Extinction Re
 
 {% enddiv %}
 
----
+- - -
 
 #### Why are we here?
 
@@ -56,7 +56,7 @@ Governments must create and be led by the decisions of a Citizens' Assembly on c
 
 ### [More about XR](/about-xr)
 
----
+- - -
 
 {% div "max-w-2xl" %}
 
@@ -70,7 +70,7 @@ We are on the brink of a global catastrophe. Life on Earth is in danger, with sc
 
 {% enddiv %}
 
----
+- - -
 
 {% div "max-w-2xl" %}
 
@@ -84,4 +84,4 @@ Traditional strategies like petitioning, lobbying, voting and protest have not w
 
 {% enddiv %}
 
----
+- - -
