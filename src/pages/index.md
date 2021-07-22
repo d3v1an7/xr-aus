@@ -57,3 +57,31 @@ Governments must create and be led by the decisions of a Citizens' Assembly on c
 ### [More about XR](/about-xr)
 
 ---
+
+{% div "max-w-2xl" %}
+
+#### This stuff is real.
+
+## The science is clear. Our future is not.
+
+We are on the brink of a global catastrophe. Life on Earth is in danger, with scientists agreeing we are entering a period of climate and ecological breakdown. From wildfires to heatwaves, droughts to rising sea levels, the symptoms of our inaction will only worsen, then longer we take to address the causes of this crisis.
+
+### [Learn why we rebel](/why-rebel)
+
+{% enddiv %}
+
+---
+
+{% div "max-w-2xl" %}
+
+#### What you can do.
+
+## The time to act is now.
+
+Traditional strategies like petitioning, lobbying, voting and protest have not worked due to the rooted interests of political and economic forces. Our approach is therefore one of non-violent, disruptive civil disobedience – a rebellion to bring about change, since all other means have failed.
+
+### [Get involved](/get-involved)
+
+{% enddiv %}
+
+---
