@@ -49,10 +49,10 @@
     </div>
   </div>
 </nav>
-{%- if alert.message and alert.url != page.url %}
-<a href="{{ alert.url }}" class="{{ alert.background_colour }} mt-10 w-full">
+{%- if alerts.driver.enabled and alerts.driver.message and alerts.driver.url != page.url %}
+<a href="{{ alerts.driver.url }}" class="{{ alerts.driver.background_colour }} mt-10 w-full">
   <div class="wrapper py-4 text-off-light text-center font-fucxed">
-    {{ alert.message }}
+    {{ alerts.driver.message }}
   </div>
 </a>
 {%- endif %}

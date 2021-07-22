@@ -66,13 +66,25 @@ collections:
             fields:
               - { label: Name, name: name, widget: string }
               - { label: URL, name: url, widget: string }
-      - label: "Alert"
-        name: "alert"
-        file: "src/_data/alert.json"
+      - label: "Alerts"
+        name: "alerts"
+        file: "src/_data/alerts.json"
+        widget: "object"
         fields:
-          - { label: Message, name: message, widget: markdown, minimal: true, required: false }
-          - { label: URL, name: url, widget: string, required: false }
-          - { label: "Background colour", name: "background_colour", widget: 'select', options: [{ label: 'Green', value: 'bg-green-500' }, { label: 'Blue', value: 'bg-blue-300' }, { label: 'Dark Blue', value: 'bg-blue-800' }, { label: 'Pink', value: 'bg-pink-500' }, { label: 'Yellow', value: 'bg-yellow-400' }], required: false }
+          - label: "Driver"
+            name: "driver"
+            widget: "object"
+            fields:
+              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Message, name: message, widget: markdown, minimal: true, required: false }
+              - { label: URL, name: url, widget: string, required: false }
+              - { label: "Background colour", name: "background_colour", widget: 'select', options: [{ label: 'Green', value: 'bg-green-500' }, { label: 'Blue', value: 'bg-blue-300' }, { label: 'Dark Blue', value: 'bg-blue-800' }, { label: 'Pink', value: 'bg-pink-500' }, { label: 'Yellow', value: 'bg-yellow-400' }], required: false }
+          - label: "Covid Notice"
+            name: "covid"
+            widget: "object"
+            fields:
+              - { label: Enabled, name: enabled, widget: boolean }
+              - { label: Message, name: message, widget: markdown, minimal: true, required: false }
       - label: "Footer"
         name: "footer"
         file: "src/_data/footer.json"
