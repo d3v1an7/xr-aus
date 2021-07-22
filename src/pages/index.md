@@ -8,7 +8,7 @@ background_image: bg-symbol-superbird
 ---
 {% div "mt-6 max-w-2xl" %}
 
-## This is an <br>emergency!
+## This is an <br>emergency.
 
 Life on Earth is in crisis. Our climate is changing faster than scientists predicted and the stakes are high. Biodiversity loss. Crop failure. Social and ecological collapse. Mass extinction.
 
