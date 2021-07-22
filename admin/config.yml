@@ -52,6 +52,7 @@ collections:
             name: "featured"
             label_singular: "Item"
             widget: "list"
+            max: 1
             summary: '{{fields.name}}'
             fields:
               - { label: Name, name: name, widget: string }
