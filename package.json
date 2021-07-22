@@ -4,8 +4,8 @@
   "description": "Create an updatable space on the Australia XR website to publicise major actions.",
   "main": "index.js",
   "scripts": {
-    "site:build": "eleventy",
-    "site:buildwatch": "eleventy --watch",
+    "site:build": "ELEVENTY_ENV=production eleventy",
+    "site:buildwatch": "ELEVENTY_ENV=development eleventy --watch",
     "site:clean": "rm -rf _site",
     "site:css": "postcss ./src/style.css --no-map --env production --output ./_site/style.css",
     "site:serve": "serve _site",

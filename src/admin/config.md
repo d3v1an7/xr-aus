@@ -1,10 +1,19 @@
+---
+permalink: /admin/config.yaml
+templateEngineOverride: liquid
+---
 backend:
+{%- if vars.environment == 'development' %}
+  name: git-gateway
+  branch: main
+local_backend: true
+{%- else %}
   name: github
   repo: d3v1an7/xr-spring-rebellion
   branch: main
   base_url: https://netlify-cms-oauth-pied.vercel.app
-#   branch: main
-# local_backend: true # this only works locally currently, will need to do extra work post hackathon to get this working when hosted
+{%- endif %}
+
 # publish_mode: editorial_workflow # another one to come back to post hackathon
 
 site_url: https://withloveandrage.com
