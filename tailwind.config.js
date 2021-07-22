@@ -15,13 +15,18 @@ module.exports = {
     },
     extend: {
       backgroundImage: theme => ({
-        'example': "url('/images/example.svg')",
+        'symbol': "url('/images/logo-symbol-dark.svg')",
+        'symbol-cockatoo': "url('/images/background-symbol-cockatoo.svg')",
+        'symbol-superbird': "url('/images/background-symbol-superbird.svg')",
       }),
       backgroundSize: {
         'custom-cover': '100% auto',
       },
       backgroundPosition: {
         'custom-cover': 'top right',
+      },
+      zIndex: {
+        '-10': '-10',
       },
       colors: {
         "off-dark": "#0f0f0f",

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include 'head.html' %}
-<body class="{{ title | slug }} {{ background_colour }} flex flex-col h-screen bg-swoosh bg-no-repeat bg-top bg-custom-cover">
+<body class="{{ title | slug }} bg-gray-400 {{ background_colour }} flex flex-col h-screen">
+  <div class="fixed -z-10 w-screen h-screen opacity-10">
+    <div class="absolute hidden xl:block w-1/2 h-full -right-10 {{ background_image }} bg-contain bg-right-bottom bg-no-repeat" style="bottom: -10%;"></div>
+  </div>
   {% include 'navigation.html' %}
   {% block content %}{{ content | safe }}{% endblock %}
   {% include 'footer.html' %}
