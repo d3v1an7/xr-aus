@@ -2,6 +2,7 @@ const pluginSEO = require("eleventy-plugin-seo")
 const inspect = require("util").inspect
 
 module.exports = (eleventyConfig) => {
+  eleventyConfig.setUseGitIgnore(false) // TODO: if i can work out a way to allow certain files to still kick off builds (hello manifest.json) we can remove this line and get rid of .eleventyignore
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
   eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"))
   eleventyConfig.addPassthroughCopy('admin')

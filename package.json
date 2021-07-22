@@ -13,7 +13,7 @@
     "build:local": "npm-run-all site:css site:buildwatch",
     "start": "npm-run-all site:clean --parallel site:serve watch browsersync:start netlify",
     "netlify": "npx netlify-cms-proxy-server",
-    "watch": "nodemon --watch ./src --ext md,css,njk,json --ignore src/_data/manifest.json --exec 'npm run build:local'",
+    "watch": "nodemon --watch ./src --ext html,md,css,njk,json --ignore src/_data/manifest.json --exec 'npm run build:local'",
     "browsersync:start": "browser-sync start --proxy 'localhost:5000' --files './_site/index.html' --no-notify"
   },
   "keywords": [],
