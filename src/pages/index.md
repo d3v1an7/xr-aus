@@ -1,10 +1,10 @@
 ---
 layout: index
-title: XXXX
+title: Extinction Rebellion
 permalink: /
-description: XXXX
+description: Join The Fight Against Climate and Ecological Collapse.
 background_colour: bg-green-500
-background_image: b
+background_image: bg-symbol-superbird
 ---
 <div class="content-block">
 
