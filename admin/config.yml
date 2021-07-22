@@ -2,7 +2,7 @@ backend:
   name: github
   repo: d3v1an7/xr-spring-rebellion
   branch: main
-  base_url: https://withloveandrage.com/admin/
+  base_url: https://xr.bemm.workers.dev/
 #   name: git-gateway
 #   branch: main
 # local_backend: true # this only works locally currently, will need to do extra work post hackathon to get this working when hosted
