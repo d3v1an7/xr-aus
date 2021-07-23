@@ -21,17 +21,18 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "alpinejs": "^3.2.2",
     "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.4",
     "cssnano": "^5.0.6",
+    "eleventy-plugin-embed-everything": "^1.13.2",
     "eleventy-plugin-seo": "^0.5.2",
     "markdown-it": "^12.1.0",
+    "nodemon": "^2.0.12",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1",
     "postcss-hash": "^3.0.0",
-    "tailwindcss": "^2.2.4",
-    "alpinejs": "^3.2.2",
-    "browser-sync": "^2.27.4",
-    "nodemon": "^2.0.12",
-    "serve": "^12.0.0"
+    "serve": "^12.0.0",
+    "tailwindcss": "^2.2.4"
   }
 }
