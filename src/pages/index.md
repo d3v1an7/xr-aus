@@ -85,3 +85,61 @@ Traditional strategies like petitioning, lobbying, voting and protest have not w
 {% enddiv %}
 
 - - -
+
+{% div "news-tiles" %}
+
+### NEWS
+
+{% columnGroup %}
+
+{% column -%}
+
+[![Climate refugees](/images/news/news-1.jpg)](/news)
+
+**Justice for climate refugees**
+
+Climate refugees are people who have fled their homes because of changes in the environment. But where are they, and what can be done to help them?
+
+July 23, 2021
+
+{%- endcolumn %}
+
+{% column -%}
+
+[![Climate change](/images/news/news-2.jpg)](/news)
+
+**Climate change conversation**
+
+Trying to communicate about the climate crisis can be frustrating. Here's how to avoid some of the pitfalls that can shut down the conversation.
+
+July 20, 2021
+
+{%- endcolumn %}
+
+{% column -%}
+
+[![There is always hope](/images/news/news-3.jpg)](/news)
+
+**There is always hope**
+
+This is the story of how a few individuals confronted an environmental disaster and worked to transform it into an ecological treasure.
+
+July 10, 2021
+
+{%- endcolumn %}
+
+{% column -%}
+
+[![Carbon reduction](/images/news/news-4.jpg)](/news)
+
+**Carbon reduction**
+
+While climate change is a complex problem in need of a unified global response, every effort towards building a safer future is valuable.
+
+July 5, 2021
+
+{%- endcolumn %}
+
+{% endcolumnGroup %}
+
+{% enddiv %}

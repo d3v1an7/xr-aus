@@ -94,6 +94,24 @@
   main hr {
     @apply border-off-dark divider border-opacity-20;
   }
+  main iframe {
+    @apply my-4;
+  }
+  main .news-tiles .column-group {
+    @apply mt-8;
+  }
+  main .news-tiles .column {
+    @apply bg-white p-4 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+  }
+  main .news-tiles p:nth-child(2) {
+      @apply font-fucxed uppercase mt-4;
+  }
+  main .news-tiles p:nth-child(3) {
+    min-height: 137px;
+  }
+  main .news-tiles p:last-child {
+    @apply text-sm uppercase text-right mt-2;
+  }
 
   /* Footer */
   .disclaimer h3 {

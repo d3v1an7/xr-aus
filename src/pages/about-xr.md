@@ -9,7 +9,21 @@ background_image: bg-symbol-cockatoo
 
 ## Lorem ipsum dolor sit amet.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat dolor vitae nibh aliquam dictum. Pellentesque mattis, orci vitae vestibulum convallis, lacus sapien pharetra magna, id tempor lacus ligula a massa. In at massa tortor. Mauris efficitur dolor ac tortor laoreet, eu ullamcorper metus accumsan. Aliquam lorem nibh, congue id cursus id, porta nec mauris. Vivamus vel eros elit. Praesent vitae eros pulvinar, pretium metus quis, dictum dui. Maecenas eu blandit felis. Nulla condimentum varius lectus a pretium. Nullam in aliquam lorem. Pellentesque libero nibh, iaculis sit amet justo vel, egestas aliquet augue. Maecenas eget neque fermentum, condimentum enim nec, consectetur libero.
+{% columnGroup %}
+
+{% column -%}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat dolor vitae nibh aliquam dictum. Pellentesque mattis, orci vitae vestibulum convallis, lacus sapien pharetra magna, id tempor lacus ligula a massa. In at massa tortor. Mauris efficitur dolor ac tortor laoreet, eu ullamcorper metus accumsan. Aliquam lorem nibh, congue id cursus id, porta nec mauris. Vivamus vel eros elit. Praesent vitae eros pulvinar, pretium metus quis, dictum dui. Maecenas eu blandit felis. Nulla condimentum varius lectus a pretium. Nullam in aliquam lorem. Pellentesque libero nibh, iaculis sit amet justo vel, egestas aliquet augue. Maecenas eget neque fermentum, condimentum enim nec, consectetur libero. Pellentesque nec elit quis dui rhoncus ultrices. In efficitur molestie nulla ut condimentum. Aenean ut turpis a ante tincidunt condimentum. Sed consectetur scelerisque libero, quis mollis ex gravida sed. Pellentesque nec elit quis dui rhoncus ultrices. In efficitur molestie nulla ut condimentum. Aenean ut turpis a ante tincidunt condimentum.
+
+{%- endcolumn %}
+
+{% column -%}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2YQLO8-Fumk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{%- endcolumn %}
+
+{% endcolumnGroup %}
 
 Pellentesque nec elit quis dui rhoncus ultrices. In efficitur molestie nulla ut condimentum. Aenean ut turpis a ante tincidunt condimentum. Sed consectetur scelerisque libero, quis mollis ex gravida sed. Integer bibendum vitae sapien eu viverra. Proin consequat elit erat, vitae varius magna maximus eget. Mauris vestibulum consectetur mauris, nec rhoncus velit sodales sit amet. Nullam turpis augue, aliquam ut rutrum id, consectetur egestas risus. Mauris pretium condimentum diam, a tristique arcu vehicula nec. Morbi placerat dui dolor, ut varius purus molestie dictum. Nulla id neque ligula. Suspendisse id eleifend mauris. Etiam massa tortor, interdum venenatis laoreet ut, varius tristique arcu. Duis iaculis placerat ante, maximus malesuada est mollis vel. Donec convallis, nisl ut porttitor accumsan, justo velit finibus ipsum, ut gravida magna sem nec ex.
 
