@@ -1,3 +1,10 @@
+{%- if alerts.driver.enabled and alerts.driver.message and alerts.driver.url != page.url %}
+<a href="{{ alerts.driver.url }}" class="{{ alerts.driver.background_colour }} w-full">
+  <div class="wrapper py-6 text-off-light text-center font-fucxed">
+    {{ alerts.driver.message }}
+  </div>
+</a>
+{%- endif %}
 <nav class="sticky {{ background_colour }} top-0" x-data="{ mobileMenuOpen: false }" @keydown.escape="mobileMenuOpen = false">
   <div class="wrapper py-0">
     <div class="relative flex items-center justify-between h-16 border-b border-off-dark border-opacity-50 py-2">
@@ -49,10 +56,4 @@
     </div>
   </div>
 </nav>
-{%- if alerts.driver.enabled and alerts.driver.message and alerts.driver.url != page.url %}
-<a href="{{ alerts.driver.url }}" class="{{ alerts.driver.background_colour }} mt-10 w-full">
-  <div class="wrapper py-4 text-off-light text-center font-fucxed">
-    {{ alerts.driver.message }}
-  </div>
-</a>
-{%- endif %}
+
