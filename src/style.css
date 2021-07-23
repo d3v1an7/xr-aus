@@ -112,7 +112,8 @@
   main .news-tiles p:last-child {
     @apply text-sm uppercase text-right mt-2;
   }
-  .bg-blue-800 {
+  .bg-blue-800, 
+  .bg-blue-800 nav a {
     @apply text-white;
   }
 
