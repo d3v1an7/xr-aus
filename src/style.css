@@ -57,7 +57,7 @@
   .column {
     @apply flex-1;
   }
-  .bg-blue-800, 
+  .bg-blue-800,
   .bg-blue-800 nav a {
     @apply text-white;
   }
@@ -115,7 +115,7 @@
     margin: 0 auto;
   }
   main .news-tiles p:nth-child(2) {
-    @apply font-fucxed uppercase mt-4;
+    @apply font-fucxedlatin uppercase mt-4;
   }
   main .news-tiles p:nth-child(3) {
     min-height: 137px;
