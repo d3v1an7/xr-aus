@@ -8,7 +8,7 @@ backend:
   name: github
   repo: d3v1an7/xr-spring-rebellion
   branch: main
-  base_url: https://netlify-cms-oauth-pied.vercel.app
+  base_url: https://bemm.com.au
 
 # publish_mode: editorial_workflow # another one to come back to post hackathon
 

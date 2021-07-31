@@ -11,20 +11,20 @@
     font-display: swap;
   }
   @font-face{
-    font-family: 'Crimson Text';
+    font-family: 'CrimsonText';
     src: url(/fonts/CrimsonText-Regular.woff) format("woff"),
          url(/fonts/CrimsonText-Regular.otf) format("otf");
     font-display: swap;
   }
   @font-face{
-    font-family: 'Crimson Text';
+    font-family: 'CrimsonText';
     font-weight: 600;
     src: url(/fonts/Crimson-Semibold.woff) format("woff"),
          url(/fonts/Crimson-Semibold.otf) format("otf");
     font-display: swap;
   }
   @font-face{
-    font-family: 'Crimson Text';
+    font-family: 'CrimsonText';
     font-weight: 700;
     src: url(/fonts/CrimsonText-Bold.woff) format("woff"),
          url(/fonts/CrimsonText-Bold.otf) format("otf");
@@ -32,10 +32,10 @@
   }
   /* Typography */
   h1, h2, h3, h4, h5, h6 {
-    @apply font-fucxed uppercase;
+    @apply font-fucxedlatin uppercase;
   }
   body {
-    @apply font-crimson text-lg;
+    @apply font-crimsontext text-lg;
   }
 
   /* Utils */
@@ -64,7 +64,7 @@
 
   /* Navigation */
   nav a {
-    @apply font-fucxed uppercase;
+    @apply font-fucxedlatin uppercase;
   }
   .navigation-item {
     @apply p-3 text-base font-medium text-off-light transition;

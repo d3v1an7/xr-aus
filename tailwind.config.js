@@ -1,20 +1,22 @@
 module.exports = {
   purge: {
+    enabled: true,
     content: [
+      '.eleventy.js',
+      './src/style.css',
       './src/**/*.html',
+      './src/**/*.json',
       './src/**/*.md',
       './src/**/*.njk',
+      './src/**/*.yml',
     ],
-    safelist: [
-      'column-group',
-      'group',
-    ]
   },
+  // Check: are we watching: html,md,css,njk,json
   darkMode: false,
   theme: {
     fontFamily: {
-      crimson: ["Crimson Text", "serif"],
-      fucxed: ["FucXedLatin", "sans-serif"],
+      crimsontext: ["CrimsonText", "serif"],
+      fucxedlatin: ["FucXedLatin", "sans-serif"],
     },
     extend: {
       backgroundImage: theme => ({
