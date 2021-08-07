@@ -6,5 +6,3 @@ node_modules/
 
 # Build artefacts
 _site
-src/_data/manifest.json
-admin/config.yml
