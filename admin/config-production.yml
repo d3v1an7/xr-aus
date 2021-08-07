@@ -1,4 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: d3v1an7/xr-spring-rebellion
   branch: main
-local_backend: true
+  base_url: https://bemm.com.au
