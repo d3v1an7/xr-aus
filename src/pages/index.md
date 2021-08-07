@@ -7,35 +7,6 @@ background_colour: bg-green-500
 background_image: bg-symbol-superbird
 ---
 
-{% container "columns max-w-2xl" %}
-
-{% item "column" %}
-
-**1. Tell the truth.**
-
-Governments must tell the truth by declaring a climate and ecological emergency, working with other institutions to communicate the urgency for change.
-
-{% enditem %}
-
-{% item "column" %}
-
-**2. Act now.**
-
-Governments must act now to halt biodiversity loss and reduce greenhouse gas emissions to net zero by [2025](/donate).
-
-{% enditem %}
-
-{% item "column" %}
-
-**3. Go beyond politics.**
-
-Governments must create and be led by the decisions of a Citizens' Assembly on climate and ecological justice.
-
-{% enditem %}
-
-{% endcontainer %}
-
-
 {% div "mt-6 max-w-2xl" %}
 
 ## This is an <br>emergency.
@@ -62,31 +33,67 @@ https://www.youtube.com/watch?v=F1Tt1DRni6g
 
 {% columnGroup %}
 
-{% column -%}
+{% column %}
 
 **1. Tell the truth.**
 
 Governments must tell the truth by declaring a climate and ecological emergency, working with other institutions to communicate the urgency for change.
 
-{%- endcolumn %}
+{% endcolumn %}
 
-{% column -%}
+{% column %}
 
 **2. Act now.**
 
 Governments must act now to halt biodiversity loss and reduce greenhouse gas emissions to net zero by [2025](/donate).
 
-{%- endcolumn %}
+{% endcolumn %}
 
-{% column -%}
+{% column %}
 
 **3. Go beyond politics.**
 
 Governments must create and be led by the decisions of a Citizens' Assembly on climate and ecological justice.
 
-{%- endcolumn %}
+{% endcolumn %}
 
 {% endcolumnGroup %}
+
+### [More about XR](/about-xr)
+
+- - -
+
+#### Why are we here?
+
+## Our demands.
+
+{% container "columns" %}
+
+{% item "column" %}
+
+**1. Tell the truth.**
+
+Governments must tell the truth by declaring a climate and ecological emergency, working with other institutions to communicate the urgency for change.
+
+{% enditem %}
+
+{% item "column" %}
+
+**2. Act now.**
+
+Governments must act now to halt biodiversity loss and reduce greenhouse gas emissions to net zero by [2025](/donate).
+
+{% enditem %}
+
+{% item "column" %}
+
+**3. Go beyond politics.**
+
+Governments must create and be led by the decisions of a Citizens' Assembly on climate and ecological justice.
+
+{% enditem %}
+
+{% endcontainer %}
 
 ### [More about XR](/about-xr)
 
