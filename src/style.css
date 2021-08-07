@@ -51,7 +51,7 @@
   .btn-hover {
     @apply bg-off-light text-off-dark;
   }
-  .column-group {
+  .columns {
     @apply space-y-6 md:flex md:space-x-6 md:space-y-0;
   }
   .column {
@@ -104,7 +104,7 @@
   main iframe {
     @apply my-4 sm:max-w-full;
   }
-  main .news-tiles .column-group {
+  main .news-tiles .columns {
     @apply mt-8;
   }
   main .news-tiles .column {

@@ -1,0 +1,245 @@
+# publish_mode: editorial_workflow # another one to come back to post hackathon
+
+site_url: https://withloveandrage.com
+logo_url: https://withloveandrage.com/images/logo.png
+media_folder: src/images
+collections:
+  - name: pages
+    label: Pages
+    label_singular: Page
+    folder: src/pages
+    description: >
+      Home for all editable content, including the home page and Spring
+      Rebellion. Making changes here will add/modify markdown files in the pages
+      directory.
+    create: true
+    editor:
+      preview: false # def want to come back and enable this, but until we can represent the actual render, this is unhelpful
+    summary: '{{fields.permalink}}'
+    sortable_fields:
+      - permalink
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Permalink
+        name: permalink
+        widget: string
+        required: false
+      - label: Background colour
+        name: background_colour
+        widget: select
+        options:
+          - label: Green
+            value: bg-green-500
+          - label: Blue
+            value: bg-blue-300
+          - label: Dark Blue
+            value: bg-blue-800
+          - label: Pink
+            value: bg-pink-500
+          - label: Yellow
+            value: bg-yellow-400
+        required: false
+      - label: Background image
+        name: background_image
+        widget: select
+        options:
+          - label: XR Symbol
+            value: bg-symbol
+          - label: XR Symbol (Cockatoo)
+            value: bg-symbol-cockatoo
+          - label: XR Symbol (Superbird)
+            value: bg-symbol-superbird
+        required: false
+  - label: Settings
+    name: settings
+    description: >
+      Home for all editable website settings, including navigation and
+      redirects. Making changes here will modify the related JSON file in the
+      _data directory.
+    delete: false
+    editor:
+      preview: false
+    files:
+      - label: Navigation
+        name: navigation
+        file: src/_data/navigation.json
+        widget: object
+        fields:
+          - label: General
+            name: general
+            label_singular: Item
+            widget: list
+            summary: '{{fields.name}}'
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: URL
+                name: url
+                widget: string
+          - label: Featured
+            name: featured
+            label_singular: Item
+            widget: list
+            max: 1
+            summary: '{{fields.name}}'
+            fields:
+              - label: Name
+                name: name
+                widget: string
+              - label: URL
+                name: url
+                widget: string
+      - label: Alerts
+        name: alerts
+        file: src/_data/alerts.json
+        widget: object
+        fields:
+          - label: Driver
+            name: driver
+            widget: object
+            fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+              - label: Message
+                name: message
+                widget: markdown
+                minimal: true
+                required: false
+              - label: URL
+                name: url
+                widget: string
+                required: false
+              - label: Background colour
+                name: background_colour
+                widget: select
+                options:
+                  - label: Green
+                    value: bg-green-500
+                  - label: Blue
+                    value: bg-blue-300
+                  - label: Dark Blue
+                    value: bg-blue-800
+                  - label: Pink
+                    value: bg-pink-500
+                  - label: Yellow
+                    value: bg-yellow-400
+                required: false
+          - label: Covid Notice
+            name: covid
+            widget: object
+            fields:
+              - label: Enabled
+                name: enabled
+                widget: boolean
+              - label: Message
+                name: message
+                widget: markdown
+                minimal: true
+                required: false
+      - label: Footer
+        name: footer
+        file: src/_data/footer.json
+        fields:
+          - label: Acknowledgement
+            name: acknowledgement
+            widget: markdown
+            minimal: true
+          - label: Disclaimer
+            name: disclaimer
+            widget: markdown
+            minimal: true
+          - label: Links
+            name: links
+            widget: object
+            fields:
+              - label: Act Now
+                label_singular: Item
+                name: act_now
+                widget: list
+                summary: '{{fields.name}}'
+                fields:
+                  - label: Name
+                    name: name
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+              - label: The Truth
+                label_singular: Item
+                name: the_truth
+                widget: list
+                summary: '{{fields.name}}'
+                fields:
+                  - label: Name
+                    name: name
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+              - label: News
+                label_singular: Item
+                name: news
+                widget: list
+                summary: '{{fields.name}}'
+                fields:
+                  - label: Name
+                    name: name
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+              - label: Support
+                label_singular: Item
+                name: support
+                widget: list
+                summary: '{{fields.name}}'
+                fields:
+                  - label: Name
+                    name: name
+                    widget: string
+                  - label: URL
+                    name: url
+                    widget: string
+      - label: Redirects
+        name: redirects
+        file: src/_data/redirects.json
+        fields:
+          - label: Redirects
+            label_singular: Item
+            name: redirects
+            widget: list
+            summary: '{{fields.source}} ⭢ {{fields.destination}}'
+            fields:
+              - label: Source
+                name: source
+                widget: string
+              - label: Destination
+                name: destination
+                widget: string
+              - label: Code
+                name: code
+                widget: select
+                options:
+                  - '301'
+                  - '302'
+      - label: SEO & social
+        name: seo
+        file: src/_data/seo.json
+        fields:
+          - label: Site name
+            name: title
+            widget: string
+          - label: Meta description
+            name: description
+            widget: string
+          - label: Social image
+            name: image
+            widget: image
+            required: false

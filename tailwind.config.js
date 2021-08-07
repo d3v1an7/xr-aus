@@ -11,7 +11,6 @@ module.exports = {
       './src/**/*.yml',
     ],
   },
-  // Check: are we watching: html,md,css,njk,json
   darkMode: false,
   theme: {
     fontFamily: {
