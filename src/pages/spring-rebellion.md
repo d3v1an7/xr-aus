@@ -8,9 +8,9 @@ background_image: bg-symbol-cockatoo
 ---
 ## A national declaration of civil disobedience.
 
-{% columnGroup %}
+{% container "columns" %}
 
-{% column -%}
+{% item "column" %}
 
 **Life on earth is in trouble.**
 
@@ -18,25 +18,25 @@ Whole species are going extinct. People all over the world are suffering and dyi
 
 Governments are doing nothing. Businesses are doing nothing.
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 **Who is going to save us?**
 
 It’s up to you. You can’t count on someone else to do this for you. Not us. Not Greta. It’s time to look inside yourself and take action.
 
-{%- endcolumn %}
+{% enditem %}
 
-{% endcolumnGroup %}
+{% endcontainer %}
 
 ---
 
 ## We must rebel.
 
-{% columnGroup %}
+{% container "columns" %}
 
-{% column -%}
+{% item "column" %}
 
 Starting on September XX, Extinction Rebellion is calling an International Rebellion. Together, we will [peacefully](https://rebellion.earth/wp-content/uploads/2019/04/Extinction-Rebellion-Rebel-Agreement.pdf) occupy the centres of power and shut them down. We will demand that governments Tell the Truth about our Climate and Ecological Emergency. We will demand that they Act Now.
 
@@ -44,48 +44,48 @@ Leave your desk. Invite your boss. Walk out of school. Switch off the TV. Put do
 
 Multiple actions in each state over the course of a week will organised with information provided ahead of time, contact information for the day, briefings on the day, and debriefs afterwards.
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 https://www.youtube.com/watch?v=3AP76sfU5nU
 
-{%- endcolumn %}
+{% enditem %}
 
-{% endcolumnGroup %}
+{% endcontainer %}
 
 ---
 
 #### Get on the streets
 ## Bring everyone you know.
 
-{% columnGroup %}
+{% container "columns" %}
 
-{% column -%}
+{% item "column" %}
 
 ### [Sydney Rebellion](/)
 ### [Melbourne Rebellion](/)
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 ### [Brisbane Rebellion](/)
 ### [Canberra Rebellion](/)
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 ### [Adelaide Rebellion](/)
 ### [Perth Rebellion](/)
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 ### [Hobart Rebellion](/)
 
-{%- endcolumn %}
+{% enditem %}
 
-{% endcolumnGroup %}
+{% endcontainer %}

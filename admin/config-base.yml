@@ -13,8 +13,6 @@ collections:
       Rebellion. Making changes here will add/modify markdown files in the pages
       directory.
     create: true
-    editor:
-      preview: false # def want to come back and enable this, but until we can represent the actual render, this is unhelpful
     summary: '{{fields.permalink}}'
     sortable_fields:
       - permalink

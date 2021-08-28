@@ -31,33 +31,33 @@ https://www.youtube.com/watch?v=F1Tt1DRni6g
 
 ## Our demands.
 
-{% columnGroup %}
+{% container "columns" %}
 
-{% column %}
+{% item "column" %}
 
 **1. Tell the truth.**
 
 Governments must tell the truth by declaring a climate and ecological emergency, working with other institutions to communicate the urgency for change.
 
-{% endcolumn %}
+{% enditem %}
 
-{% column %}
+{% item "column" %}
 
 **2. Act now.**
 
 Governments must act now to halt biodiversity loss and reduce greenhouse gas emissions to net zero by [2025](/donate).
 
-{% endcolumn %}
+{% enditem %}
 
-{% column %}
+{% item "column" %}
 
 **3. Go beyond politics.**
 
 Governments must create and be led by the decisions of a Citizens' Assembly on climate and ecological justice.
 
-{% endcolumn %}
+{% enditem %}
 
-{% endcolumnGroup %}
+{% endcontainer %}
 
 ### [More about XR](/about-xr)
 
@@ -131,9 +131,9 @@ Traditional strategies like petitioning, lobbying, voting and protest have not w
 
 ### NEWS
 
-{% columnGroup %}
+{% container "columns" %}
 
-{% column -%}
+{% item "column" %}
 
 [![Climate refugees](/images/news/news-1.jpg)](/news)
 
@@ -143,9 +143,9 @@ Climate refugees are people who have fled their homes because of changes in the 
 
 July 23, 2021
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 [![Climate change](/images/news/news-2.jpg)](/news)
 
@@ -155,9 +155,9 @@ Trying to communicate about the climate crisis can be frustrating. Here's how to
 
 July 20, 2021
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 [![There is always hope](/images/news/news-3.jpg)](/news)
 
@@ -167,9 +167,9 @@ This is the story of how a few individuals confronted an environmental disaster 
 
 July 10, 2021
 
-{%- endcolumn %}
+{% enditem %}
 
-{% column -%}
+{% item "column" %}
 
 [![Carbon reduction](/images/news/news-4.jpg)](/news)
 
@@ -179,8 +179,8 @@ While climate change is a complex problem in need of a unified global response, 
 
 July 5, 2021
 
-{%- endcolumn %}
+{% enditem %}
 
-{% endcolumnGroup %}
+{% endcontainer %}
 
 {% enddiv %}
