@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat dolor 
 
 {% endcolumn %}
 
-{% column -%}
+{% column %}
 
 https://www.youtube.com/embed/2YQLO8-Fumk
 
