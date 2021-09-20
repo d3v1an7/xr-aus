@@ -31,10 +31,10 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("debug", (content) => `<pre>${inspect(content)}</pre>`)
 
   // Add plugins
-  eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"))
+  eleventyConfig.addPlugin(pluginSEO, require("./_data/seo.json"))
   eleventyConfig.addPlugin(pluginEmbedEverything)
   eleventyConfig.addPlugin(pluginTailwindCSS, {
-    src: "./src/style.css",
+    src: "./style.css",
     watchEleventyWatchTargets: true,
   })
 
@@ -43,8 +43,8 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy('admin/config.yml')
   eleventyConfig.addPassthroughCopy('robots.txt')
   eleventyConfig.addPassthroughCopy('favicon.ico')
-  eleventyConfig.addPassthroughCopy('src/images')
-  eleventyConfig.addPassthroughCopy('src/fonts')
+  eleventyConfig.addPassthroughCopy('images')
+  eleventyConfig.addPassthroughCopy('fonts')
   eleventyConfig.addPassthroughCopy({'node_modules/alpinejs/dist/cdn.min.js': './js/alpine.js'})
 
   // Paired shortcodes
@@ -85,7 +85,6 @@ module.exports = (eleventyConfig) => {
     dir: {
       data: '_data',
       includes: '_includes',
-      input: "src",
       layouts: "_layouts",
       output: "_site"
     },
