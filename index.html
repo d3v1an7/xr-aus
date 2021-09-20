@@ -1,5 +1,83 @@
-<div class="content" data-cms-content-wrapper="/_layouts/test.njk">
-  <div class="mt-6 max-w-2xl">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <title>XR - Extinction Rebellion</title>
+  <meta name="description" content="Join the fight against climate and ecological collapse.">
+  <link rel="canonical" href="/">
+  <meta property="og:title" content="XR - Extinction Rebellion">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="/">
+<meta property="og:description" content="Join the fight against climate and ecological collapse.">
+<meta property="og:image" content="/images/social.png">
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="/">
+<meta name="twitter:title" content="XR - Extinction Rebellion">
+<meta name="twitter:description" content="Join the fight against climate and ecological collapse.">
+<meta name="twitter:image" content="/images/social.png">
+<link rel="stylesheet" href="/style.css?v=1632157114021" type="text/css">
+  <script defer src="/js/alpine.js?v=3.2.2"></script>
+</head>
+
+<body class="xr bg-gray-400 bg-green-500 flex flex-col h-screen">
+  <div class="fixed -z-10 w-screen h-screen opacity-10">
+    <div class="absolute hidden lg:block w-1/2 h-full -right-10 bg-symbol-superbird bg-contain bg-right-bottom bg-no-repeat" style="bottom: -10%; min-width: 50em"></div>
+  </div>
+  
+<a href="/get-involved/spring-rebellion/" class="bg-pink-500 w-full">
+  <div class="wrapper py-6 text-off-light text-center font-fucxedlatin">
+    Join the National Spring Rebellion in September. Click for more info!
+  </div>
+</a>
+<nav class="sticky bg-green-500 top-0" x-data="{ mobileMenuOpen: false }" @keydown.escape="mobileMenuOpen = false">
+  <div class="wrapper py-0">
+    <div class="relative flex items-center justify-between h-16 border-b border-off-dark border-opacity-50 py-2">
+      <div class="absolute inset-y-0 left-0 flex items-center md:hidden">
+        <button @click="mobileMenuOpen = !mobileMenuOpen" type="button" class="inline-flex items-center justify-center p-2 rounded-md text-off-dark hover:text-off-light hover:bg-off-dark" aria-controls="mobile-menu" aria-expanded="false" x-bind:aria-expanded="mobileMenuOpen.toString()">
+          <span class="sr-only">Open main menu</span>
+          <svg x-state:on="Menu open" x-state:off="Menu closed" class="block h-6 w-6" :class="{ 'hidden': mobileMenuOpen, 'block': !(mobileMenuOpen) }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+          <svg x-state:on="Menu open" x-state:off="Menu closed" class="hidden h-6 w-6" :class="{ 'block': mobileMenuOpen, 'hidden': !(mobileMenuOpen) }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+      <div class="flex flex-1 items-center justify-center md:items-stretch md:justify-start">
+        <div class="flex-shrink-0 flex items-center">
+          <a href="/" class="contents">
+            <img class="block h-10 w-auto lg:pr-3" src="/images/logo-symbol-dark.svg" alt="Extinction Rebellion symbol">
+          </a>
+        </div>
+        <div class="hidden md:block md:ml-6">
+          <div class="flex space-x-4 h-full items-center">
+            <a href="/about-xr/" class="navigation-item navigation-item-hover">About XR</a>
+            <a href="/get-involved/" class="navigation-item navigation-item-hover">Get involved</a>
+            <a href="/events/" class="navigation-item navigation-item-hover">Events</a>
+            <a href="/news/" class="navigation-item navigation-item-hover">News</a>
+          </div>
+        </div>
+      </div>
+      <div class="absolute right-0 flex items-center md:static md:inset-auto md:ml-6">
+          <a href="/donate/" class="navigation-item navigation-item-hover">Donate</a>
+      </div>
+    </div>
+  </div>
+  <div class="md:hidden" x-cloak x-show="mobileMenuOpen">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="/about-xr/" class="block navigation-item navigation-item-hover">About XR</a>
+      <a href="/get-involved/" class="block navigation-item navigation-item-hover">Get involved</a>
+      <a href="/events/" class="block navigation-item navigation-item-hover">Events</a>
+      <a href="/news/" class="block navigation-item navigation-item-hover">News</a>
+    </div>
+  </div>
+</nav>
+
+
+  <main class="flex-grow">
+    <div class="content" data-cms-content-wrapper="/_layouts/index.njk">
+      <div class="mt-6 max-w-2xl">
 <h2>This is an <br>emergency.</h2>
 <p>Life on Earth is in crisis. Our climate is changing faster than scientists predicted and the stakes are high. Biodiversity loss. Crop failure. Social and ecological collapse. Mass extinction.</p>
 <p>We're running out of time, and our governments have failed to act. Extinction Rebellion was formed to fix this.</p>
@@ -89,4 +167,98 @@
 </div>
 </div>
 
-</div>
+    </div>
+  </main>
+  <footer class="bg-off-dark text-off-light mt-10">
+  <div class="wrapper">
+    <div class="acknowledgement max-w-3xl">
+      <div class="flex space-x-4 mb-10">
+        <img class="h-8 w-auto" src="/images/flag-aboriginal.svg" alt="Aboriginal flag">
+        <img class="h-8 w-auto" src="/images/flag-torres-strait-islanders.svg" alt="Torres Strait Islanders flag">
+      </div>
+      <p>Extinction Rebellion Australia pays respect to the traditional owners and custodians who looked after this land for tens of thousands of years. We acknowledge that this land was stolen from them and that sovereignty has never been ceded.</p>
+
+    </div>
+    <div class="flex flex-col md:flex-row justify-between mt-10">
+      <div class="links max-w-3xl grid gap-x-4 gap-y-10 grid-cols-2 md:flex md:flex-grow">
+        <div class="md:flex-grow">
+          <h3>Act now</h3>
+          <ul>
+            <li>
+              <a href="/get-involved/">Get involved</a>
+            </li>
+            <li>
+              <a href="/">Find your group</a>
+            </li>
+            <li>
+              <a href="/">Events</a>
+            </li>
+            <li>
+              <a href="/">Donate</a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:flex-grow">
+          <h3>The truth</h3>
+          <ul>
+            <li>
+              <a href="/">About XR</a>
+            </li>
+            <li>
+              <a href="/">Why rebel?</a>
+            </li>
+            <li>
+              <a href="/">FAQ</a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:flex-grow">
+          <h3>News</h3>
+          <ul>
+            <li>
+              <a href="/">Local news</a>
+            </li>
+            <li>
+              <a href="/">Local press</a>
+            </li>
+            <li>
+              <a href="/">Global news</a>
+            </li>
+            <li>
+              <a href="/">Global site</a>
+            </li>
+          </ul>
+        </div>
+        <div class="md:flex-grow">
+          <h3>Support</h3>
+          <ul>
+            <li>
+              <a href="/">Contact us</a>
+            </li>
+            <li>
+              <a href="/">Resources</a>
+            </li>
+            <li>
+              <a href="/">Open roles</a>
+            </li>
+            <li>
+              <a href="/">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="flex-shrink mt-10 md:mt-0">
+        <a href="/"><img class="w-32 md:w-44 h-auto" src="/images/logo-full-light.svg" alt="Extinction Rebellion logo"></a>
+      </div>
+    </div>
+    <hr class="divider border-off-white">
+    <div class="disclaimer text-gray-500 text-sm">
+      <h3>Made with love and rage</h3>
+<p>Extinction Rebellion (XR) is a do-it-together movement. All our design and artwork can be used non-commercially for the purpose of planet saving. This does not mean creating merchandise for fundraising or sending XR a percentage of your sales. We do not endorse or create any merchandise and we will pursue and prosecute anyone who does. The Extinction Symbol was designed in 2011 by street artist ESP, who loans XR usage on the same basis: <a href="https://www.extinctionsymbol.info">www.extinctionsymbol.info</a></p>
+
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
