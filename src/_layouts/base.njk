@@ -6,7 +6,11 @@
     <div class="absolute hidden lg:block w-1/2 h-full -right-10 {{ background_image }} bg-contain bg-right-bottom bg-no-repeat" style="bottom: -10%; min-width: 50em"></div>
   </div>
   {% include 'navigation.html' %}
-  {% block content %}{{ content | safe }}{% endblock %}
+  {% block content %}
+  <div>
+    {{ content | safe }}
+  </div>
+  {% endblock %}
   {% include 'footer.html' %}
 </body>
 </html>
