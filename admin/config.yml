@@ -1,5 +1,8 @@
-# publish_mode: editorial_workflow # another one to come back to post hackathon
-
+backend:
+  name: github
+  repo: d3v1an7/xr-spring-rebellion
+  branch: main
+  base_url: https://bemm.com.au
 site_url: https://withloveandrage.com
 logo_url: https://withloveandrage.com/images/logo.png
 media_folder: src/images
