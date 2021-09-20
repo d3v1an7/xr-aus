@@ -1,0 +1,32 @@
+<h1>xr-aus</h1>
+<h2>Goals</h2>
+<ul>
+<li>New developers that understand HTML, utility CSS and vanilla JavaScript can be productive in a short amount of time.</li>
+<li>Website content producers can create flexible layouts with minimal training, no HTML knowledge required.</li>
+<li>The website is built in a way that allows <em>all content and supporting data</em> to be editable via a CMS.</li>
+<li>The website and CMS have a <a href="https://www.websitecarbon.com/">minimal environmental impact</a>.</li>
+<li>Website <code>a11y</code> is not an afterthought.</li>
+<li>Any 3rd parties used (analytics, etc) are privacy-focussed.</li>
+</ul>
+<h2>Stack</h2>
+<ul>
+<li>The static website is generated with <a href="https://www.11ty.dev/">Eleventy</a>.</li>
+<li>The CSS framework used is <a href="https://tailwindcss.com/">Tailwind</a>.</li>
+<li>The JavaScript framework used is <a href="https://alpinejs.dev/">AlpineJS</a>.</li>
+<li>The live website is deployed to <a href="https://pages.cloudflare.com/">CloudFlare Pages</a> on push to <code>main</code>, and preview deploys are spun up on push to other branches.</li>
+<li>Content and JSON data updates can be made via the <a href="https://www.netlifycms.org/">Netlify CMS</a>.</li>
+<li><TBC> OAuth for the Netlify CMS is deployed to <a href="https://workers.cloudflare.com/">CloudFlare Workers</a>, via <a href="https://github.com/features/actions">GitHub Actions</a>.</li>
+</ul>
+<h2>Local development</h2>
+<pre><code class="language-sh">git clone https://github.com/d3v1an7/xr-aus
+npm install
+npm run start
+</code></pre>
+<h2>Traps</h2>
+<ul>
+<li><TBC> Purging. See list in tailwind.config.js.</li>
+</ul>
+<h1>Credits</h1>
+<ul>
+<li>Tailwind colour definitions (and a heck lot of design inspiration) from <a href="https://github.com/owinoalfred/copxr">https://github.com/owinoalfred/copxr</a></li>
+</ul>
