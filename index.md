@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: index
 title: XR
 permalink: /
 description: Join the fight against climate and ecological collapse
